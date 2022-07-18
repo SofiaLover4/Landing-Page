@@ -1,6 +1,8 @@
 body {
     margin: 0px;
     font-family:"Andale Mono", sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 ul{
