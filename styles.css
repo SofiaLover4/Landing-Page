@@ -3,7 +3,6 @@ body {
     font-family:"Andale Mono", sans-serif;
     display: flex;
     flex-direction: column;
-    color: rgb(174, 122, 85);
 }
 
 ul{
@@ -44,6 +43,7 @@ h2 {
     padding: 10px 250px 50px 200px;
     justify-content: space-between;
     align-items: center;
+    color: rgb(174, 122, 85);
 }
 
 .header-text{
@@ -64,3 +64,46 @@ h2 {
     font-size: 16px;
     padding: 5px 10px;
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    background-color: rgb(220, 190, 169);
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+h1,
+.card{
+    color:#1F2937;
+}
+
+h1 {
+    max-height: 40px;
+    text-align: center;
+    font-weight:  900;
+    font-size: 36px;
+}
+
+.card {
+    max-width: 250px;
+    text-align: center;
+    padding: 40px 5px 20px 5px;
+    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(230, 216, 207);
+    font-size: 14px;
+}
+
+.card img {
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+
+
