@@ -70,7 +70,6 @@ h2 {
 .content {
     display: flex;
     flex-direction: column;
-    border-style: solid;
     background-color: rgb(220, 190, 169);
     color:#1F2937;
     flex-grow: 1;
