@@ -70,18 +70,14 @@ h2 {
     flex-direction: column;
     border-style: solid;
     background-color: rgb(220, 190, 169);
+    color:#1F2937;
 }
 
 .cards {
     display: flex;
     justify-content: center;
     gap: 50px;
-    padding-bottom: 50px;
-}
-
-h1,
-.card{
-    color:#1F2937;
+    padding-bottom: 100px;
 }
 
 h1 {
@@ -103,6 +99,27 @@ h1 {
 .card img {
     width: 200px;
     margin-bottom: 15px;
+}
+
+.quote{
+    background-color: rgb(247, 233, 224);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.quote-text{
+    max-width: 800px;
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: -10px;
+}
+
+.quote-person{
+    font-size: 24px;
+    align-self: flex-end;
+    padding-right: 300px;
 }
 
 
